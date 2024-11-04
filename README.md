@@ -1,4 +1,4 @@
-# MEC Upcoming Events snippet
+# MEC Upcoming Events snippet (WordPress & Modern Events Calendar)
 Function to fetch MEC events and parse mec_fields then display in a looper with Themeco Pro Looper.
 
 Creates the `cs_looper_custom_uptournaments` but you use `uptournaments` as the name of the `Looper Provider` Hook.
