@@ -6,3 +6,5 @@ Creates the `cs_looper_custom_uptournaments` but you use `uptournaments` as the 
 **NOTE:**
 * `parse_mec_fields` Refers to another snippet, make sure it is active
 * Make sure to edit the `AND NOT (p.post_title like '%minecraft%' OR p.post_title like 'Smash Summit%')` to remove any unwanted events
+
+Place this code in a snippet or in your Functions.PHP file
