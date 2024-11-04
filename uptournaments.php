@@ -4,6 +4,7 @@ add_filter('cs_looper_custom_uptournaments', function ($result) {
     global $wpdb;
 
     // Fetch events that are today or have repeating date equal to today or in the future
+    // Make sure to edit the `AND NOT (p.post_title like '%minecraft%' OR p.post_title like 'Smash Summit%')` to remove any unwanted events
     $query = $wpdb->prepare("
         SELECT		
 			p.ID, p.post_title, p.post_content, p.post_name,
